@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{Convert Japanese "Kanji" character to Chinese character.}
   spec.homepage      = "https://github.com/takp/kanji_chinese_converter"
   spec.license       = "MIT"
-  
+
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
